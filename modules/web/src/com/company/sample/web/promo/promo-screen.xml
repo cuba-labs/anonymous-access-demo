@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://caption"
+        messagesPack="com.company.sample.web.promo">
+    <layout>
+        <vbox align="MIDDLE_CENTER"
+              spacing="true"
+              width="AUTO">
+            <image align="TOP_CENTER"
+                   scaleMode="CONTAIN"
+                   width="150px">
+                <classpath path="com/company/sample/web/promo/like.png"/>
+            </image>
+            <label align="MIDDLE_CENTER"
+                   value="Welcome to the best CRM ever!"
+                   stylename="h1"/>
+            <linkButton id="goToAppLink"
+                        align="MIDDLE_CENTER"
+                        caption="Go to app"/>
+        </vbox>
+    </layout>
+</window>
