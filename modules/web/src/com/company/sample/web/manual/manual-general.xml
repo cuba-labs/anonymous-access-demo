@@ -2,7 +2,23 @@
 <window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
         caption="msg://caption"
         messagesPack="com.company.sample.web.manual">
-    <layout>
-        <label value="General manual"/>
+
+    <layout spacing="true"
+            expand="spacer">
+        <label value="General manual screen"
+               stylename="h1"/>
+
+        <image id="testImage"
+               height="200"
+               width="300"/>
+
+        <label value="Some information here"/>
+
+        <label value="...and here"/>
+
+        <button id="showOtherImage"
+                caption="Show other image"/>
+
+        <label id="spacer"/>
     </layout>
 </window>

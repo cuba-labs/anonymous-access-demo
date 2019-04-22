@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        extends="com/haulmont/cuba/web/app/main/main-screen.xml"
+        caption="mainMsg://application.caption">
+    <layout>
+        <hbox id="horizontalWrap">
+            <workArea id="workArea">
+                <initialLayout>
+                    <linkButton id="goToPromoLink"
+                                stylename="huge"
+                                caption="Go To Promo"/>
+                </initialLayout>
+            </workArea>
+        </hbox>
+    </layout>
+</window>
