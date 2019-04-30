@@ -1,5 +1,6 @@
 package com.company.sample.web.manual;
 
+import com.haulmont.cuba.gui.Route;
 import com.haulmont.cuba.gui.components.Button;
 import com.haulmont.cuba.gui.components.Image;
 import com.haulmont.cuba.gui.components.UrlResource;
@@ -13,6 +14,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Random;
 
+@Route("manual-general")
 @UiController("sample_ManualGeneral")
 @UiDescriptor("manual-general.xml")
 public class ManualGeneral extends Screen {
